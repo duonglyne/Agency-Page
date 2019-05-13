@@ -416,14 +416,16 @@
       height:auto;
       width:33%;
       display: inline-block;
+
       /*background-color:green;*/
   }
+  .footer__adress-box {
+      margin: 10rem auto;
+  }
   .footer__adress {
-      padding-top:10rem;
-      padding-left: 25rem;
-      /*position:absolute;*/
-      /*top:0;*/
-      /*left:0;*/
+    padding-left: 5rem;
+
+
   }
   .footer__contact {
       text-align: center;
@@ -451,15 +453,16 @@
 
   }
   .author__name {
-      display: inline;
-      margin-left:36%;
+      display: block;
+      margin-right:19rem;
+      overflow: hidden;
   }
   .author__logo {
 
       float: right;
       margin-right:50%;
   }
-  /*css for responsive*/
+  css for responsive
 
 
   @media only screen and (min-width: 768px) {
