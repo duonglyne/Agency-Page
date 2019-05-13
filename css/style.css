@@ -463,8 +463,7 @@
       margin-right:50%;
   }
   /*css for responsive*/
-
-
+  
   @media only screen and (min-width: 768px) {
       .btn__collapse {
           display: none;
